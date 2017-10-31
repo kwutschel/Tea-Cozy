@@ -1,3 +1,31 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-color: black;
+	font-family: Helvetica;
+	font-size: 22px;
+}
+
+header {
+	height: 69px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+}
+
+
+nav a{
+	text-decoration: underline;
+	color: seashell;
+	opacity: .9;
+	padding-right: 10px;
+}
+
+.logo img {
+	margin-left: 10px;
+	height: 50px;
+}
