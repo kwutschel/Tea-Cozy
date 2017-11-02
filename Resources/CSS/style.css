@@ -79,5 +79,37 @@ nav a{
 	margin: 10px;
 }
 
+.locations {
+	background-image: url(../Images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.locations h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.content {
+	background-color: black;
+	width: 300px;
+	margin: 15px 20px 0 0;
+	text-align: center;
+}
+
+.footer {
+	height: 200px;
+	text-align: center;
+}
+
+.copyright {
+	margin-left: 20px;
+}
 
 
